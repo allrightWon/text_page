@@ -1,0 +1,46 @@
+/* fontawesome CDN */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* xeicon CDN */
+@import url("http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
+
+/* font(pretendard) CDN */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+/* reset */
+* {
+  box-sizing: border-box;
+  font-family: "Pretendard Variable";
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  height: 100vh;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+button {
+  font-size: 26px;
+  margin-bottom: 20px;
+  display: block;
+  margin: 20px auto;
+}
+img {
+  width: 300px;
+}
